@@ -1,0 +1,19 @@
+{
+  "name": "Web3MonoRepo",
+  "version": "1.0.0",
+  "description": "Web3MonoRepo",
+  "main": "index.js",
+  "repository": "https://github.com/mashharuki/Web3MonoRepo.git",
+  "author": "mashharuki",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "compile:contract": "yarn workspace backend compile",
+    "test:contract": "yarn workspace backend test",
+    "start:frontend": "yarn workspace frontend start",
+    "start:api": "yarn workspace api start"
+  }
+}

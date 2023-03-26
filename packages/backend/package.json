@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx truffle test",
+    "compile": "npx truffle compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
